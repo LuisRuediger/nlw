@@ -56,7 +56,7 @@ export function CreateAdModal() {
     <Dialog.Portal>
       <Dialog.Overlay className="bg-black/60 inset-0 fixed"/>
 
-      <Dialog.Content className="fixed bg-[#2a2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-left-1/2 rounded-lg w-[480px] shadow-lg shadow-black/25">
+      <Dialog.Content className="fixed bg-[#2A2634] py-8 px-10 text-white top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-lg w-[480px] shadow-black/25">
         <Dialog.Title className="text-3xl text-white font-black">Publique um anúncio</Dialog.Title>
           <form onSubmit={handleCreateAd} className='mt-8 flex flex-col gap-4'>
             <div className='flex flex-col gap-2'>
@@ -157,7 +157,7 @@ export function CreateAdModal() {
                 </div>
                 <div className='flex flex-col gap-2 flex-1'>
                   <label htmlFor="hourStart">Qual horário do dia?</label>
-                  <div className='grid grid-cols-2 gap-2 flex-1'>
+                  <div className='grid grid-cols-2 gap-2'>
                     <Input name='hourStart' id='hourStart' placeholder='De' type="time"/>
                     <Input name='hourEnd' id='hourEnd' placeholder='Até' type="time"/>
                   </div>

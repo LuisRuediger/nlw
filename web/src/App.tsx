@@ -50,9 +50,7 @@ function App() {
 
       <Dialog.Root>
         <CreateAdBanner/>
-        <CreateAdModal>
-
-        </CreateAdModal>
+        <CreateAdModal/>
       </Dialog.Root>
     </div>
 

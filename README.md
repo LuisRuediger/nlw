@@ -2,7 +2,7 @@
 
 ---
 Aplicação criada durante a NLW e-Sports.  <br/>
-> Para ver o projeto rodando você pode acessar este [Link](link.com.br).
+> Para ver o projeto rodando você pode acessar este [Link](https://link).
 
 ---
 
